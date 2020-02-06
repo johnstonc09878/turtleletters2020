@@ -21,3 +21,84 @@ t.right(90)
 t.forward(180)
 t.left(90)
 t.forward(180)
+
+
+elif letter == "B":
+        tur.setheading(0)
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(40)
+        tur.left(180)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
+        
+            
+    elif letter == "F":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
+        tur.bk(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(25)
+        
+          
+	   
+    elif letter == "L":
+        tur.setheading(0)
+        tur.pd()
+        tur.fd(50)
+        tur.bk(50)
+        tur.left(90)
+        tur.fd(100)
+	    
+    
+    elif letter == "R":
+        tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.left(135)
+        tur.fd(75)
+        tur.bk(75)
+        tur.left(135)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+	
+
+	
+    elif letter == "S":
+        tur.setheading(0)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+
